@@ -10,7 +10,7 @@ package maven.apple1;
 		    this.driver=driver;
 			}
 			//selecting ipad//
-			By Ipadselect=By.xpath("/html/body/nav/div/ul[2]/li[3]/a");
+			By Ipdselect=By.xpath("/html/body/nav/div/ul[2]/li[3]/a");
 			//click on buy//
 			By buy=By.xpath("/html/body/div[4]/section[1]/div[1]/div/span/a[2]");
 			//select silver//
@@ -40,8 +40,8 @@ package maven.apple1;
 		    By cvvno=By.name("securityCode");
 		    
 		    
-			public WebElement Ipadselect(){
-			return driver.findElement(Ipadselect);
+			public WebElement Ipdselect(){
+			return driver.findElement(Ipdselect);
 		}
 		
 		public WebElement buy(){
