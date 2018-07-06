@@ -15,7 +15,7 @@ public class AppleBuyReturndetails {
 		    WebDriver driver=new FirefoxDriver();
 			 driver.get("http://www.apple.com");
 			 AppleBuy ab=new AppleBuy (driver);
-			 ab.Ipdselect().click();
+			 ab.Ipadselect().click();
 			 ab.buy().click();
 			 ab.selectsilver().click();
 			 Thread.sleep(1000);
